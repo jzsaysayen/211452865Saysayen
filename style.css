@@ -14,16 +14,33 @@
         padding: 20px;
         border-radius: 12px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-        width: 300px;
-        text-align: center;
+        width: 600px;
+        display: flex;
+        justify-content: space-between  ;
     }
 
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }   
+
+    .contentwrap {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
     .header1 {
         font-weight: bolder;
         font-size: 2rem;
         margin-top: 10px;
         margin-bottom: 15px;
         color: #ffffff;        
+    }
+
+    .imgName {
+        display: inline-block;
     }
 
     .info ul {
@@ -65,4 +82,17 @@
 
     ul li strong {
         color: #7e7e7e;
+    }
+
+    .rightimg{
+        display: flex;
+        align-items: stretch;
+        margin-left: 20px;
+    }
+
+    .alignimg{
+        height: 685px;
+        width: 550px;
+        max-height: 1000px;
+        object-fit: cover;
     }
