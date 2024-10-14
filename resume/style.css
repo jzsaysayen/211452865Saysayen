@@ -1,0 +1,112 @@
+body {
+    font-family: monospace;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh ;
+}
+
+.centerID{
+    border-radius: 40%;
+}
+
+.profile-card {
+    background-color: black;
+    padding-top: 20;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}   
+
+.contentwrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.header1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #ffffff;        
+}
+
+.imgName {
+    display: inline-block;
+    width: 370px;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.info ul li {
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+.skills {
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.skills li {
+    font-style: oblique;
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 8px 0;
+    color: #cccccc;
+}
+
+.header2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #dbdbdb
+}
+
+.profile-card {
+    padding: 0;
+}
+
+ul li strong {
+    color: #7e7e7e;
+}
+
+.rightimg{
+    display: flex;
+    align-items: stretch;
+    margin-left: 20px;
+}
+
+.alignimg{
+    height: 685px;
+    width: 550px;
+    max-height: 1000px;
+    object-fit: cover;
+}
+
+.about-me {
+    background-color: #1c1c1c;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+    color: #e0e0e0;
+    width: 100%;
+}
