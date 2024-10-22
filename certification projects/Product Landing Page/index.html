@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img" src="img/icon.png" alt="envato">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="features">
+            <h2>Watch our T-Shirt Product Video</h2>
+            <div id="vid-container">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PdJq-dAQr-Y" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="pricing">
+            <h2>Our Pricing Plans</h2>
+            <div id="pricing-table">
+                <div class="pricing-opt">
+                    <h3>Buy 1 get 1 Free</h3>
+                    <p>$9.00</p>
+                </div>
+                <div class="pricing-opt">
+                    <h3>Buy 2 get 5 Free</h3>
+                    <p>$16.00</p>
+                </div>
+                <div class="pricing-opt">
+                    <h3>Buy 3 get 7 Free</h3>
+                    <p>$24.00</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Get in touch with us!</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <label for="email" >Enter your email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
