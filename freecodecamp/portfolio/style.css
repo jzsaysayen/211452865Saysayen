@@ -106,6 +106,115 @@ body {
 }
 
 /*time out*/
+/*time in, hehe kakauwi sabado*/
 
-
-
+#about-me {
+    margin: 75px;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    padding: 15px;
+    box-shadow: 20px 20px rgb(66, 66, 66,0.5);
+}
+#about-me ul {
+    list-style: none;
+}
+#about-me ul li {
+    margin: 20px;
+}
+#additionals {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+#resume {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+#projects {
+    margin-top: 10px;
+    margin: 75px;
+    border-radius: 10px;
+    background-color: rgba(56, 56, 56);
+    padding: 15px;
+}
+#github {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.project {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+#contact {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder ;
+}
+#contact {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#contact h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    font-size: 1em;
+    color: #666;
+}
+input[type="email"], textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="email"]:focus, textarea:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+#submit {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#submit {
+    background-color: #45a049;
+}
+footer {
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    text-align: right;
+}
